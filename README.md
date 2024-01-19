@@ -129,8 +129,25 @@ From the summaries above i was able to find out
 
 # Share 
 
-**Lets take a look at the visuals!**
+**Lets take a look at some visuals!**
 
 `ggplot(data = activty) + geom_point(mapping = aes(x = TotalSteps, y = Calories), color = 'green') +
   geom_smooth(mapping = aes(x = TotalSteps, y = Calories)) + labs(title = "Total Steps vs Calorie Amount")`
   
+![file_show](https://github.com/OmarKanu96/Bellabeat-Case-Study-1/assets/127154130/b6fbf466-b11c-4a1d-ae83-c43123289a07)
+
+By looking at the above visual it can be determined that their is a positive correlation between Total number of steps and Calories burned, meaning that the more steps that a participants takes in a day the number of calories burned increases. 
+
+`ggplot(data = sleep) + geom_point(mapping = aes(x = TotalMinutesAsleep, y = TotalTimeInBed), color = 'blue') +
+  labs(title = "Time Asleep vs Time in Bed")`
+
+![file_show-2](https://github.com/OmarKanu96/Bellabeat-Case-Study-1/assets/127154130/8d0e966c-550f-480b-a0dd-4a9395d32347)
+
+Again we see a positive correlation in the visual above between the amount of time spent in bed versus the amount of time asleep. One way that this data can be used to improve the bellabeat app is to have a section in their app where amount of sleep you get is tracked, so that users have a good read on how much sleep they are getting. 
+
+`ggplot(data = merged_data) + geom_point(mapping = aes(x = SedentaryMinutes, y = TotalMinutesAsleep)) +
+  labs(title = "Sedentary Minutes vs Time Asleep")`
+
+  ![file_show-3](https://github.com/OmarKanu96/Bellabeat-Case-Study-1/assets/127154130/1b848d77-1bf9-4ffe-92aa-f590aa5aa9ba)
+
+So for the visual we see a negative correlation meaning that as participants are less active the amount of sleep they get goes down as well. 
