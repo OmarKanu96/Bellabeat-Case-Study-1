@@ -78,7 +78,7 @@ After all the dataframes have been imported, i went ahead and started cleaning m
 
 From there i am now ready to analyze the data 
 
-# Analayze
+`# Analayze`
 fist thing i do is determine the number of participants in each group by using 'n_distinct'
 
 `n_distinct(activity$Id)`
@@ -93,28 +93,44 @@ fist thing i do is determine the number of participants in each group by using '
 
 In summary we find that there are 33 particpants within the activity, calories, and intensities datasets, 24 participants in the sleep dataset and only about 8 paritcipants in the weight dataset 
 
-# Activity
+`# Activity`
 
 `activity %>% 
   select(TotalSteps, TotalDistance, SedentaryMinutes, Calories) %>%
   summary()`
   
-# Active minutes per category
+`# Active minutes per category`
 
 `activity %>%
   select(VeryActiveMinutes, LightlyActiveMinutes, FairlyActiveMinutes
         SedentaryMinutes) %>%
   summary()`
   
-# Calories
+`# Calories`
 
 `calories %>% 
   select(calories)%>%
   summary()`
   
-# Sleep
+`# Sleep`
 
 `sleep %>%
   select(TotalSleepRecords, TotalMinutesAlseep, TotalTimeInBed) %>%
   summary()`
+
+  # What did I discover?
+From the summaries above i was able to find out 
+* The total average steps of the participants was 7,638. However by diving a little deeper i found out that the Centers for Disease Control and Prevention(CDC) recomends about 10,000 steps a day 
+* Average total distance walked was 5.5 miles 
+* Most of our participants are lighlty active 
+* On Average particpants spend about 7 hrs asleep
+* On Average particpants burn about 97 calories per hour 
+* Sedentary minutes on average is about 16.5 hrs
+
+# Share 
+
+**Lets take a look at the visuals!**
+
+`ggplot(data = activty) + geom_point(mapping = aes(x = TotalSteps, y = Calories), color = 'green') +
+  geom_smooth(mapping = aes(x = TotalSteps, y = Calories)) + labs(title = "Total Steps vs Calorie Amount")`
   
