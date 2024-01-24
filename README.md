@@ -149,5 +149,24 @@ Again we see a positive correlation in the visual above between the amount of ti
   labs(title = "Sedentary Minutes vs Time Asleep")`
 
   ![file_show-3](https://github.com/OmarKanu96/Bellabeat-Case-Study-1/assets/127154130/1b848d77-1bf9-4ffe-92aa-f590aa5aa9ba)
+`cor(merged_data$TotalMinutesAsleep,merged_data$SedentaryMinutes) = -0.2065253`
+Know for the visual above we see a negative correlation meaning that as participants are less active the less amount of sleep they tend to get. 
 
-So for the visual we see a negative correlation meaning that as participants are less active the amount of sleep they get goes down as well. 
+Lastly, i want to take a closer look at how the day of the week affects our Total Steps. 
+
+`summarized_activity_sleep <- merged_data %>% group_by(Weekday) %>% 
+  summarise(AvgDailySteps = mean(TotalSteps),
+            AvgAsleepMinutes = mean(TotalMinutesAsleep),
+            AvgAwakeTimeInBed = mean(TotalTimeInBed), 
+            AvgSedentaryMinutes = mean(SedentaryMinutes),
+            AvgLightlyActiveMinutes = mean(LightlyActiveMinutes),
+            AvgFairlyActiveMinutes = mean(FairlyActiveMinutes),
+            AvgVeryActiveMinutes = mean(VeryActiveMinutes), 
+            AvgCalories = mean(Calories))`
+
+`ggplot(data = summarized_activity_sleep) + geom_col(mapping = aes(x = Weekday, y = 
+   AvgDailySteps), fill = "blue") + labs(title = "Total Step Count Each Day")`
+
+   ![file_show-5](https://github.com/OmarKanu96/Bellabeat-Case-Study-1/assets/127154130/a67a3da8-ec75-4a40-af43-a4d86f6d35fc)
+
+what we see is that most participants take the most steps on Saturday, Sunday, and Thursday and then we see a dropoff throughout the other days of the week with Friday being the day that they take the least amount of steps. 
