@@ -170,3 +170,12 @@ Lastly, i want to take a closer look at how the day of the week affects our Tota
    ![file_show-5](https://github.com/OmarKanu96/Bellabeat-Case-Study-1/assets/127154130/a67a3da8-ec75-4a40-af43-a4d86f6d35fc)
 
 what we see is that most participants take the most steps on Saturday, Sunday, and Thursday and then we see a dropoff throughout the other days of the week with Friday being the day that they take the least amount of steps. 
+
+
+# ACT
+**Conclusions** 
+1. The average amount of steos taken by our participants falls below the avegrage recomneded by the CDC which is 10,000 steps. I recomend including a stpe tracker in the app wherre users are able to see the amount of steps that they take each day with the goal being 10,000 steps per day and if they are to reach that goal on a consistant basis lets say 3-4 days in a week they will get a in app medal,  
+2. Majority of our participants are likely active. it will benefit Bellabeat to use catagories within the app showing users where they fall when it comes to how active they are and as they progress in their activity level they should get a notification celebrating the progress they've made and a motivational message for example "Keep up the good work", or "Great job lets keep going" 
+3. Based on our data we found that the more steps that is taken each day will more than likely result in a increase of total calories burned. Bellabeat should run a campaign highlighting how important movement is and how it is vital for our health and wellnes 
+4. A Campaign can also be ran highlighting the benefits and importance of sleep that individuals should be getting but also a in app sleep tracker that tracks the amount of sleep users are getting a night which will help users know how much sleep they are getting a night.
+5. i would also recommed using notifications to give a freindly reminder to users to get active or get some steps in specifically after 1-2 has gone by without any sort of activity from the users. Example after a couple hours apple watches will notify you to drink your water. 
