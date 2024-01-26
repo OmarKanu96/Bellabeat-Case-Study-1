@@ -20,7 +20,7 @@ executive team
 * Guided Questions
  1. What are some trends in the smart device usage 
  2. how do the trends apply to the Bellabeat app and customers
- 3, How do these trends improve the marketing strategy
+ 3. How do these trends improve the marketing strategy
 
 # Prepare 
 the first thing that i did was upload the data in R studio. i specifically chose 5 datasets each dataset is a fitness tracker from thirty fitbit users. the datasets that i used for this case study were daily activity level, exercise intenisity, calorie tracker, sleep and weight lodd tracker. 
@@ -78,7 +78,8 @@ After all the dataframes have been imported, i went ahead and started cleaning m
 
 From there i am now ready to analyze the data 
 
-`# Analayze`
+# Analayze
+
 fist thing i do is determine the number of participants in each group by using 'n_distinct'
 
 `n_distinct(activity$Id)`
@@ -178,4 +179,10 @@ what we see is that most participants take the most steps on Saturday, Sunday, a
 2. Majority of our participants are likely active. it will benefit Bellabeat to use catagories within the app showing users where they fall when it comes to how active they are and as they progress in their activity level they should get a notification celebrating the progress they've made and a motivational message for example "Keep up the good work", or "Great job lets keep going" 
 3. Based on our data we found that the more steps that is taken each day will more than likely result in a increase of total calories burned. Bellabeat should run a campaign highlighting how important movement is and how it is vital for our health and wellnes 
 4. A Campaign can also be ran highlighting the benefits and importance of sleep that individuals should be getting but also a in app sleep tracker that tracks the amount of sleep users are getting a night which will help users know how much sleep they are getting a night.
-5. i would also recommed using notifications to give a freindly reminder to users to get active or get some steps in specifically after 1-2 has gone by without any sort of activity from the users. Example after a couple hours apple watches will notify you to drink your water. 
+5. i would also recommed using notifications to give a freindly reminder to users to get active or get some steps in specifically after 1-2 has gone by without any sort of activity from the users. Example after a couple hours apple watches will notify you to drink your water.
+
+# Bellbeat Tableau Dashboard 
+![Dashboard 1](https://github.com/OmarKanu96/Bellabeat-Case-Study-1/assets/127154130/36066e1e-8c88-4dfb-bf6b-36e8f3ecb6c3)
+
+(https://public.tableau.com/views/BellabeatCaseStudy_17062359946690/Dashboard1?:language=en-US&:display_count=n&:origin=viz_share_link)
+
