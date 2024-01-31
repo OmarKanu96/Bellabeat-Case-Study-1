@@ -7,7 +7,7 @@ Welcome to my Bellabeat data analysis case study! Bellabeat is a high tech manuf
 
 **Background** 
 
-The Bellabeat product that i chose to focus on is the Bellabeat app in search for insights that i can explore and discover in order to make this product that much greater. i will be using the Fitbit Fitness Tracker Data which contains personal fitness tracker from 30 fitbit users
+The Bellabeat product that i chose to focus on is the Bellabeat app in search for insights that i can explore and discover in order to make this product that much greater, as well as guide the marketing strategy for Bellabeat fitness. i will be using the Fitbit Fitness Tracker Data which contains personal fitness tracker from 30 fitbit users
 
 **Stakeholders**
 
@@ -186,3 +186,6 @@ what we see is that most participants take the most steps on Saturday, Sunday, a
 
 (https://public.tableau.com/views/BellabeatCaseStudy_17062359946690/Dashboard1?:language=en-US&:display_count=n&:origin=viz_share_link)
 
+# Powerpoint Presentation 
+
+(https://docs.google.com/presentation/d/1C0TBcV0gjxva3Zz0XdSAYC9BYwBmxEfKVk3GqETebaY/edit?usp=sharing)
